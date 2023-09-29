@@ -66,7 +66,7 @@ export default function Projects() {
         <Divider horizontal>Projects</Divider>
         <Segment basic style={{marginBottom: '1em', marginLeft: '30vmin', marginRight: '30vmin'}} >
 
-            <Swiper modules={[Navigation, Pagination, Autoplay]} slidesPerView={1} navigation pagination={{ clickable: true }} loop={true} autoplay={true} speed={1000} style={{width: '400px', height: '520px', paddingLeft: '2em'}}>
+            <Swiper modules={[Navigation, Pagination, Autoplay]} slidesPerView={1} navigation pagination={{ clickable: true }} loop={true} autoplay={true} speed={1000} style={{width: '400px', height: '550px', paddingLeft: '2em'}}>
                 
                  {projects.map((projectItem, idx) =>{
                  return (
