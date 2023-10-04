@@ -9,8 +9,8 @@ import hero from '../../assets/hero.json'
 
 export default function Hero() {
     return (
-       <div className="main-hero-div">
-            <div>
+       <div className="container-hero-div">
+            <div className='heroJson-div'>
                 <Lottie animationData={hero} loop={true} />
             </div>
             <Fade in={true}>

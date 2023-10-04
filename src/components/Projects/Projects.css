@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    #projects {
+        width: 100%;
+    }
+
+    .carousel {
+        position:relative;
+        padding-left: 0%;
+        margin-right: 20vw;
+     
+
+    }
+    
+}

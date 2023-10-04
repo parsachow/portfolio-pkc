@@ -8,22 +8,22 @@ export default function Footer() {
       <footer>
             <Segment inverted vertical style={{ backgroundColor: 'black', color: 'white', padding: '0em 0em', }}>
             <Container textAlign='center' style={{paddingBottom: '1em',}}>
-            <Grid divided inverted stackable style={{height: '7vmin'}}> 
-                  <Grid.Column width={8}>
+            <Grid divided inverted stackable style={{height: '7vmin'}} className='footer-grid-main'> 
+                  <Grid.Column width={8} className='footer-grid-connect'>
                   <Header inverted as='h4' content='Connect' />
                   <span>
 
                    <Menu.Item href="https://www.linkedin.com/in/parsachowdhury10/">
-                        <Icon name="linkedin" size="big" inverted color="grey" ></Icon>
+                        <Icon name="linkedin" aria-label="linkedIn" size="big" inverted color="grey"></Icon>
                   </Menu.Item>
          
-                   <Menu.Item href="https://github.com/parsachow" >
-                          <Icon name="github square" size="big" inverted color="grey"></Icon>
+                   <Menu.Item href="https://github.com/parsachow">
+                          <Icon name="github square" size="big" aria-label="github" inverted color="grey"></Icon>
                    </Menu.Item>
                    </span>
                    </Grid.Column>
                    
-                   <Grid.Column width={8}>
+                   <Grid.Column width={8} className='footer-grid-resume'>
                    <Header inverted as='h4' content='Resume' />
                    <Menu.Item href="https://docs.google.com/document/d/1DLHsU2YZ5oRGxP5Nb1C1z1O-RiqwEyUwSl8OmXsFvDg/edit">
                         <Icon name="file pdf" aria-label="resume-pdf" size="big" inverted color="grey"></Icon>
@@ -31,7 +31,7 @@ export default function Footer() {
                    </Grid.Column>
             </Grid>
             <br />
-                  <Divider inverted section />
+                  <Divider inverted section className='footer-bottom' />
                    
                    &copy; {new Date().getFullYear()} Copyright: parsachow
                    

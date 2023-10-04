@@ -18,7 +18,8 @@ export default function AboutMe() {
                     <h4>Hi, I'm Parsa Chowdhury!</h4>
                     <br />
                     <p>I'm from Toronto, Canada. I just finished a Software Engineering bootcamp from General Assembly and I also hold a Masters Degree in Environmental Science.</p>
-                     <p>My passion for software development stemmed from taking online courses on automation software testing during the pandemic and I became curious about building the products I was testing. The creativity coupled with the gratification of making a line of code work is one of the best feelings in the world and I thoroughly enjoy building useful and sustainable applications from scratch.</p>
+                     <p>My passion for software development stemmed from taking online courses on automation software testing during the pandemic and I became curious about building the products I was assessing. The creativity coupled with the gratification of making a line of code work is one of the best feelings in the world and I thoroughly enjoy building useful and sustainable applications from scratch.</p>
+                     <p>Take a look below to see the tools I work with and my projects.</p>
                     <br />
                     <br />
                 </div>

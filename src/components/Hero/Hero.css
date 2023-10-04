@@ -1,4 +1,4 @@
-.main-hero-div {
+.container-hero-div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -15,4 +15,13 @@
 .welcome-div {
    margin-top: 25em;
 
+}
+
+@media screen and (max-width: 600px) {
+    .container-hero-div {
+        width: 100%;
+    }
+    .welcome-div {
+        margin-top: 25vw;
+    }
 }

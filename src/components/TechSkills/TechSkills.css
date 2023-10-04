@@ -4,3 +4,13 @@
     margin-left: 15vmin;
     margin-right: 5vmin;
 }
+
+@media screen and (max-width: 600px) {
+    #tech-segment {
+        width: 100%;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        
+    }
+ 
+}
