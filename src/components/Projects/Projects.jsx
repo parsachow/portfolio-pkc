@@ -57,6 +57,15 @@ export default function Projects() {
             liveSite: 'https://parsachow.github.io/Hangman/',
     
         },
+        {
+            title: 'Ecom-Store',
+            description: 'Django Ecommerce Shop',
+            techs: ["Django", "Python", "JavaScript", "Bootstrap"],
+            image: 'https://imgur.com/a/0VOIFZQ',
+            github: 'https://github.com/parsachow/django-ecom-store',
+            liveSite: '',
+    
+        },
        
     ])
     
