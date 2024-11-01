@@ -61,7 +61,7 @@ export default function Projects() {
             title: 'Ecom-Store',
             description: 'Django Ecommerce Shop',
             techs: ["Django", "Python", "JavaScript", "Bootstrap"],
-            image: 'https://imgur.com/a/0VOIFZQ',
+            image: 'https://i.imgur.com/kDoHghl.png',
             github: 'https://github.com/parsachow/django-ecom-store',
             liveSite: '',
     
